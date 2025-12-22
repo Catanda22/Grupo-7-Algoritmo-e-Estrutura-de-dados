@@ -27,5 +27,6 @@ Algoritmos em Grafos.
    python src/main.py
 
 # Integrantes do grupo
-- Pedro
+- Felix veríssimo Quiala
+  
  
