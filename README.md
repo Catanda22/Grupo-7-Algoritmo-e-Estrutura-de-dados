@@ -16,8 +16,9 @@ Algoritmos em Grafos.
 
 ## Organização do Repositório
 - src/: contém o código-fonte da implementação do caso prático
-- data/: contém dados de apoio utilizados pelo programa (se aplicável)
+- research/: contém dados pesquisados pelos membros do grupo
 - README.md: documento explicativo do projeto
+- As referências bibliográficas utilizadas encontram-se na pasta docs
 
 ## Como Executar o Projeto
 1. Certifique-se de ter a linguagem instalada (ex: Python 3)
