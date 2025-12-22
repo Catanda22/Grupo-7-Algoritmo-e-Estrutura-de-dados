@@ -28,5 +28,6 @@ Algoritmos em Grafos.
 
 # Integrantes do grupo
 - Felix veríssimo Quiala
+- Pedro Muendo José Vieira
   
  
