@@ -30,5 +30,6 @@ Algoritmos em Grafos.
 - Felix veríssimo Quiala
 - Pedro Muendo José Vieira
 - Catanda Augusto Fernando
+- Kassako Mádia 
   
  
