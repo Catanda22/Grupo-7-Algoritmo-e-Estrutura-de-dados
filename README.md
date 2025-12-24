@@ -20,12 +20,6 @@ Algoritmos em Grafos.
 - README.md: documento explicativo do projeto
 - As referências bibliográficas utilizadas encontram-se na pasta docs
 
-## Como Executar o Projeto
-1. Certifique-se de ter a linguagem instalada (ex: Python 3)
-2. Abra o terminal na pasta do projeto
-3. Execute o comando:
-   python src/main.py
-
 # Integrantes do grupo
 - Felix veríssimo Quiala
 - Pedro Muendo José Vieira
