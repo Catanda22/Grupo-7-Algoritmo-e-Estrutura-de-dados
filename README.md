@@ -1,7 +1,6 @@
 # Tabela Hash e Algoritmos em Grafos
 
-Este repositório contém a implementação de um caso prático desenvolvido
-para a disciplina de Estrutura de Dados, com o objetivo de aplicar os
+Este repositório contém a implementação de um caso prático desenvolvido pelo grupo 7 para a disciplina de Estrutura de Dados, com o objetivo de aplicar os
 conceitos de Tabela Hash e Algoritmos em Grafos na resolução de um
 problema real.
 
