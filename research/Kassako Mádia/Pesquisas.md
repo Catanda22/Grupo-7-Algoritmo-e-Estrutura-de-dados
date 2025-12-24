@@ -1,4 +1,4 @@
-#Funções de Hash
+# Funções de Hash
 Hashing é uma técnica na qual, quando fornecemos dados de tamanho arbitrária a uma função, obtemos um valor pequeno e simplificado. Essa função é chamada de função hash. 
 O hashing usa uma função hash para mapear as chaves para outra faixa de dados de tal forma que uma nova faixa de chaves possa ser usada como um índice na tabela hash; em outras palavras, o hashing é usado para converter os valores das chaves em valores inteiros, que podem ser usados como índice na tabela hash. Em nossas discussões neste capítulo, estamos usando hashing para converter strings em inteiros. Poderíamos ter usado qualquer outro tipo de dados em vez de strings que possam ser convertidos em inteiros. 
 Vamos pegar um exemplo: Digamos que queremos fazer o hash da expressão "helloworld" ou seja, queremos obter um valor numérico correspondente a essas tring que possa ser usado como índice na tabela hash. 
@@ -12,7 +12,7 @@ h	e	I	I	o		w	o	r	l	d
 
 = 1116
 Figure 8.2: Ordinal values of each character for the hello world string
-#Colisões
+# Colisões
 Colisões ocorrem quando a função hash gera o mesmo índice para duas ou mais chaves diferentes. Existem várias técnicas para lidar com colisões:
 Encadeamento Separado: Cada bucket no array armazena uma lista ligada de todos os pares de chave-valor que compartilham o mesmo índice. Essa abordagem é simples de implementar, mas pode levar a listas longas em caso de muitas colisões.
 Endereçamento Aberto: Quando ocorre uma colisão, a Tabela Hash busca a próxima posição livre no array para armazenar o novo par chave-valor. Existem várias estratégias de endereçamento aberto, como sondagem linear, sondagem quadrática e duplo hashing.
@@ -25,7 +25,7 @@ Função Hash: Uma função hash mal projetada pode aumentar a probabilidade de 
 
 
 
-#Métodos de Tratamento de Colisões
+# Métodos de Tratamento de Colisões
 Existem várias técnicas para lidar com colisões em tabelas hash, sendo as mais comuns temos:
 1.	Encadeamento: Neste método, cada posição da tabela contém uma lista encadeada de elementos que colidiram. Quando uma nova chave gera uma colisão, ela é adicionada à lista correspondente. Isso permite armazenar múltiplas chaves no mesmo índice sem perder dados. 
 Vantagens:
@@ -39,10 +39,10 @@ Desvantagens:
 •	Sondagem Quadrática: A distância entre as sondagens aumenta quadraticamente.
 •	Duplo Hashing: Uma segunda função hash é utilizada para determinar a próxima posição a ser verificada. 
 
-##Vantagens:
+## Vantagens:
 •	Utiliza menos memória do que o encadeamento separado, pois todos os elementos são armazenados diretamente na tabela.
 •	Pode ser mais eficiente em termos de tempo se a tabela estiver bem dimensionada e as colisões forem raras.
-##Desvantagens:
+## Desvantagens:
 •	O desempenho pode degradar rapidamente se muitas colisões ocorrerem, levando a um fenômeno conhecido como "clustering".
 
 
