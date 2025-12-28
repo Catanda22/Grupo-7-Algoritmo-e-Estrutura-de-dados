@@ -5,8 +5,7 @@ conceitos de Tabela Hash e Algoritmos em Grafos na resolução de um
 problema real.
 
 ## Objetivo do Projeto
-Aplicar estruturas de dados estudadas em sala de aula, demonstrando na
-prática o funcionamento e a utilidade das Tabelas de Espalhamento e dos
+Aplicar estruturas de dados estudadas, demonstrando na prática o funcionamento e a utilidade dos
 Algoritmos em Grafos.
 
 ## Estruturas de Dados Utilizadas
