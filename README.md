@@ -16,7 +16,6 @@ Algoritmos em Grafos.
 - src/: contém o código-fonte da implementação do caso prático
 - research/: contém dados pesquisados pelos membros do grupo
 - README.md: documento explicativo do projeto
-- As referências bibliográficas utilizadas encontram-se na pasta docs
 
 # Integrantes do grupo
 - Felix veríssimo Quiala
