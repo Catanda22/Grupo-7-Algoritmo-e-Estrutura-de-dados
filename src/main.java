@@ -1,11 +1,16 @@
-
 import java.util.ArrayList;
+import java.util.Scanner;
 
-public class iluminacaoPublica {
+public class IP {
 
     public static void main(String[] args) {
 
+        Scanner input = new Scanner(System.in);
+
         int totalZonas = 6;
+
+        // Nomes dos bairros
+        String[] bairros = new String[totalZonas];
 
         // Grafo: cada zona possui uma lista de zonas ligadas
         ArrayList<Integer>[] grafo = new ArrayList[totalZonas];
@@ -13,8 +18,10 @@ public class iluminacaoPublica {
         // Marca se a zona foi visitada durante o BFS
         boolean[] visitado = new boolean[totalZonas];
 
-        // Inicializa o grafo
+        // Leitura dos nomes dos bairros
         for (int i = 0; i < totalZonas; i++) {
+            System.out.print("Digite o nome do bairro " + i + ": ");
+            bairros[i] = input.nextLine();
             grafo[i] = new ArrayList<>();
         }
 
@@ -32,12 +39,14 @@ public class iluminacaoPublica {
         bfs(grafo, visitado, totalZonas, 0);
 
         // Mostra zonas sem iluminacao publica adequada
-        System.out.println("Zonas com iluminacao publica inadequada:");
+        System.out.println("\nBairros com iluminacao publica inadequada:");
         for (int i = 0; i < totalZonas; i++) {
             if (!visitado[i]) {
-                System.out.println("Zona " + i);
+                System.out.println(bairros[i]);
             }
         }
+
+        input.close();
     }
 
     // Algoritmo de Busca em Largura (BFS)
@@ -46,25 +55,18 @@ public class iluminacaoPublica {
                     int totalZonas,
                     int inicio) {
 
-        // Fila usada pelo BFS
         int[] fila = new int[totalZonas];
         int inicioFila = 0;
         int fimFila = 0;
 
-        // Inicia o BFS pela zona inicial
         fila[fimFila++] = inicio;
         visitado[inicio] = true;
 
-        // Enquanto houver zonas na fila
         while (inicioFila < fimFila) {
 
-            // Retira a proxima zona da fila
             int atual = fila[inicioFila++];
 
-            // Visita todas as zonas ligadas a zona atual
             for (int vizinho : grafo[atual]) {
-
-                // Se ainda nao foi visitada
                 if (!visitado[vizinho]) {
                     visitado[vizinho] = true;
                     fila[fimFila++] = vizinho;
