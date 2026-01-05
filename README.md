@@ -9,12 +9,11 @@ Aplicar estruturas de dados estudadas, demonstrando na prática o funcionamento 
 Algoritmos em Grafos.
 
 ## Estruturas de Dados Utilizadas
-- Tabela Hash
 - Algoritmos em Grafos
 
 ## Organização do Repositório
 - src/: contém o código-fonte da implementação do caso prático
-- research/: contém dados pesquisados pelos membros do grupo
+- docs/:contém materias utilizados no desenvolvimento do trabalho 
 - README.md: documento explicativo do projeto
 
 # Integrantes do grupo
@@ -23,4 +22,5 @@ Algoritmos em Grafos.
 - Catanda Augusto Fernando
 - Kassako Mádia
 - Jacinto Paulino Dimonekene   
- 
+- Jandira Eva Cabral Pedro
+- Jacinto  Simão Jorge
