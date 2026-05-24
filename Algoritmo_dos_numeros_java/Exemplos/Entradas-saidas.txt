@@ -1,0 +1,45 @@
+Todos os códigos foram testados e verificados obtendo assim os seguintes
+os seguintes resultados:
+
+::::::::MDC::::::
+Entrada: 20 e30 saída: O MDC entre 20 e 30 é: 10
+
+::::::EUCLIDES::::::
+Entrada: 48 e 18 saída: O MDC entre 48 e 18 é: 6
+
+:::::::PRIMALIDADE::::::
+Entrada: 7 saída: O número 7 é primo.
+
+
+:::::::FACTORIZAÇÃO:::::::
+Entrada: 84 Saída: 2 2 3 7
+
+::::::::CONGRUÊNCIAS::::::
+Entrada: 17 5 12 Saída: 17 é congruente a 5 módulo 12
+
+::::::FERMAT::::::::
+
+Entrada: 2 7 Saída: O Pequeno Teorema de Fermat é válido.
+
+:::::::Teorema Chines do Resto::::::
+
+Entrada:
+2
+3
+3
+5
+
+Saída: a solução é x = 8
+
+::::::TOTIENTE:::::::
+
+Entrada: 9 Saída: (9) = 6
+
+:::::::::RSA::::::::::
+
+Mensagem original:
+2
+Mensagem Criptografada: DcbwQ
+
+Mensagem decifrada:
+2
